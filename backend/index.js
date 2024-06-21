@@ -50,7 +50,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 
-const allowedOrigins = ['http://localhost:3000', 'https://netflix2-0-main-1-j4oi.onrender.com'];
+const allowedOrigins = ['http://localhost:3000', 'https://netflix2-0-main-cgbe.onrender.com'];
 
 const corsOptions = {
     origin: function (origin, callback) {
