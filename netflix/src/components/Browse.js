@@ -25,7 +25,7 @@ const Browse = () => {
         if (!user) {
             navigate("/");
         }
-    }, []);
+    }, [navigate, user]);
     return (
         <div >
             <Header />
